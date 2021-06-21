@@ -1,0 +1,4 @@
+In command line:
+1) erl
+2) c(task).
+3) task:ping().

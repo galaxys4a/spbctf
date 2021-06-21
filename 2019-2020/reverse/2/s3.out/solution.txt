@@ -1,0 +1,14 @@
+  result = 117;
+  for ( i = 0; i < n; ++i )
+  {
+    ch_code = s[i];
+    result *= ++ch_code;
+    result = result % 256;
+  }
+
+=> (117 * s'[0] * ... * s'[n - 1]) mod 256 = 118 where s'[i] = s[i] + 1.
+
+Let n = 2, i.e.: (117 * s'[0] * s'[1]) mod 256 = 118
+117^(-1) mod 256 = 221, (221 * 118) mod 256 = 222 => (s'[0] * s'[1]) mod 256 = 222.
+
+Possible solution: s[0] = 102, s[1] = 113.

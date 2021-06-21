@@ -1,0 +1,10 @@
+curl --data "want_flag=YES&code=1337" http://kslweb1.spb.ctf.su/first/level4/
+
+
+Nope, you should send two POST fields: 'want_flag' equal to YES and 'code' with value 1337 (how to send post values?)
+
+Current HTTP method: GET
+
+Current POST fields: Array
+(
+)

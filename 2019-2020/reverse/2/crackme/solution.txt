@@ -1,0 +1,2 @@
+Find 10 numbers {a[i]} such that xor(a[i]) = 0, and(a[i]) = 1.
+Example, ten one's: {1, 1, ... , 1}

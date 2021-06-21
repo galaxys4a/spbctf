@@ -1,0 +1,12 @@
+To get correct password we need check = 1.
+
+val = (5 * input * input % 256 - 34 * input + 24) & 0x800000FF;
+check = (val == 0);
+
+So we need to solve equation: 5x^2 - 34x + 24 = 0 (mod 256). (0xFF = 0x11111111)
+
+Using wolframalpha we get:
+x = 256 n + 6 and n element Z
+x = 256 n + 52 and n element Z
+x = 256 n + 134 and n element Z
+x = 256 n + 180 and n element Z

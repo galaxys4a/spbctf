@@ -1,0 +1,10 @@
+curl --data-urlencode "fun=Kaspersky & Summer & Lab" http://kslweb1.spb.ctf.su/first/level5/
+
+
+Nope, you should send one POST field 'fun' with name of 'Kaspersky & Summer & Lab' (how post values are encoded?)
+
+Current HTTP method: GET
+
+Current POST fields: Array
+(
+)

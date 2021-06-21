@@ -1,0 +1,3 @@
+curl -A "user-agent-name-here" url
+curl --user-agent "user-agent-name-here" url
+curl -H "User-Agent: user-Agent-Name-Here"

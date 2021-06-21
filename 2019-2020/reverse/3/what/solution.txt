@@ -1,0 +1,5 @@
+1633837924 = 0x61626364 => "abcd"
+little endian => "dcba"
+
+25
+flag_cafe_0129837465dcba

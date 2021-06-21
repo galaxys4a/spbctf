@@ -1,0 +1,20 @@
+c str functions:
+
+strcmp(char* , char*);
+strncmp(char*, char*, int);
+strlen(char*);
+
+memset
+
+printf
+sprintf
+scanf
+sscanf
+
+getc
+fgetc
+putc
+fputc
+
+fopen
+fclose

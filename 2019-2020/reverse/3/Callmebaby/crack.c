@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+	char b[] = {
+		0x6,
+		0x0,
+		0x68,
+		0x6,
+		0x2,
+		0x68,
+		0x4,
+		0x3,
+		0x2,
+		0x7E,
+		0x7E,
+		0x7E,
+		0x4E,
+		0x0
+	};
+  	for (int i = 0; i <= 12; i++)
+  	{
+    	printf("%c", b[i] ^ 0x37);
+  	}
+
+	printf("\n");
+	return 0;
+}
